@@ -1,0 +1,182 @@
+.certificates {
+    box-sizing: border-box;
+    padding-left: 0;
+}
+
+.certificates a {
+    text-decoration: none;
+    color: inherit
+}
+
+.certificates p {
+    font-size: 1.1em;
+    margin: 1em 0
+}
+
+.certificates .description {
+    margin: 1em auto 2.25em
+}
+
+.certificates body {
+    width: 40%;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 1.5em auto;
+    color: #333
+}
+
+.certificates h1 {
+    font-weight: 400;
+    font-size: 2.5em
+}
+
+.certificates ul {
+    list-style: none;
+    padding: 0
+}
+
+.certificates ul .inner {
+    padding-left: 1em;
+    list-style: none;
+    overflow: hidden;
+    display: none
+}
+
+.certificates ul .inner.show {
+    list-style: none
+}
+
+.certificates ul li {
+    text-align: left;
+    margin: .5em .5em
+}
+
+.certificates ul li a.toggle {
+    width: 100%;
+    display: block;
+    background: var(--dark);
+    color: #fefefe;
+    padding: .75em;
+    margin: .5em 0 0 0;
+    border-radius: .15em;
+    transition: background .3s ease;
+    text-decoration: none
+}
+
+.certificates ul li a.toggle:hover {
+    background: var(--gray);
+}
+
+.certificates ul li a.toggle.course {
+    background: #fff;
+    color: #000;
+    border: 4px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .9);
+    border-radius: .15em
+}
+
+.course-data {
+    border-width: 2px;
+    border-style: solid;
+    width: 100%;
+    list-style: none;
+    border-bottom-left-radius: .15em;
+    border-bottom-right-radius: .15em
+}
+
+a.course-ID {
+    text-decoration: none;
+    font-weight: 700;
+    color: #3f89d4
+}
+
+/*b,
+strong {
+    font-weight: 700
+}*/
+
+.specialization {
+    margin: .5em 0 0 0
+}
+
+.switches-container {
+    box-sizing: border-box;
+    width: 18rem;
+    z-index: 0;
+    position: relative;
+    display: flex;
+    padding: 0;
+    position: relative;
+    background: var(--secondary);
+    line-height: 3rem;
+    border-radius: 3rem;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.switches-container input {
+    visibility: hidden;
+    position: absolute;
+    top: 0
+}
+
+.switches-container label {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+    color: var(--white)
+}
+
+.switch-wrapper {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    padding: .15rem;
+    z-index: 3;
+    transition: transform .5s cubic-bezier(.77, 0, .175, 1)
+}
+
+.switch {
+    border-radius: 3rem;
+    background: var(--white);
+    height: 100%
+}
+
+.switch div {
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    display: block;
+    color: var(--black);
+    transition: opacity .2s cubic-bezier(.77, 0, .175, 1) .125s;
+    will-change: opacity;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.switches-container input:nth-of-type(1):checked~.switch-wrapper {
+    transform: translateX(0)
+}
+
+.switches-container input:nth-of-type(2):checked~.switch-wrapper {
+    transform: translateX(100%)
+}
+
+.switches-container input:nth-of-type(1):checked~.switch-wrapper .switch div:nth-of-type(1) {
+    opacity: 1
+}
+
+.switches-container input:nth-of-type(2):checked~.switch-wrapper .switch div:nth-of-type(2) {
+    opacity: 1
+}
+
+#toggle-message {
+    text-align: center;
+    margin: 15px 0 5px 0;
+}
