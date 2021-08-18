@@ -2,7 +2,7 @@
 layout: null
 ---
 
-@import url("pygment_highlights.css");
+@import url("/assets/css/pygment_highlights.css");
 
 /* --- General --- */
 
@@ -824,7 +824,9 @@ table tr th {
   padding: 0.375rem 0.8125rem;
 }
 table tr td {
-  border: 1px solid #cccccc;
+  /* MODIFICATION  */
+  /*border: 1px solid #cccccc;*/
+  border: none;
   text-align: left;
   margin: 0;
   padding: 0.375rem 0.8125rem;

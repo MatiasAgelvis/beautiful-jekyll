@@ -1,0 +1,17 @@
+body {
+
+  height: 2000px;
+
+  --fleck-seed: 123453;
+  --fleck-count: 680;
+  --fleck-size-base: 4px;
+  --fleck-color-1: #e8ad3c;
+  --fleck-color-2: #a96c1a;
+  --fleck-color-3: #d7b54e;
+  --fleck-color-4: #e2b84b;
+  --fleck-color-5: #d6cdc4;
+
+  --background-color: #fff;
+  background-color: var(--background-color);
+  background-image: paint(fleck);
+}
