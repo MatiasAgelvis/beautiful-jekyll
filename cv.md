@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-subtitle: 
+subtitle: Just as the prophecy stated!
 ext-js: 'https://code.jquery.com/jquery-3.3.1.min.js'
 js: /assets/js/cv.js
 css: /assets/css/cv.css
