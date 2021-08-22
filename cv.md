@@ -33,14 +33,14 @@ English:
 +  [Certified Notes][Notes]
 +  [Place in Promotion][Place]
 
-[Titulo]: ../resources/Titulo_Registrado_Matias_Agelvis.pdf
-[Notas]: ../resources/Notas_Certificadas_Matias_Agelvis.pdf
-[Lugar]: ../resources/Lugar_en_la_promocion_Matias_Agelvis.pdf
+[Titulo]: /resources/Titulo_Registrado_Matias_Agelvis.pdf
+[Notas]: /resources/Notas_Certificadas_Matias_Agelvis.pdf
+[Lugar]: /resources/Lugar_en_la_promocion_Matias_Agelvis.pdf
 
 
-[Diploma]: ../resources/Diploma_Matias_Agelvis.pdf  
-[Notes]: ../resources/Notes_Matias_Agelvis.pdf
-[Place]: ../resources/place_in_the_promotion_Matias_Agelvis.pdf
+[Diploma]: /resources/Diploma_Matias_Agelvis.pdf  
+[Notes]: /resources/Notes_Matias_Agelvis.pdf
+[Place]: /resources/place_in_the_promotion_Matias_Agelvis.pdf
 
 ## Voluntary Experience
 
