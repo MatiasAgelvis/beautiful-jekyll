@@ -6,25 +6,27 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Matias Agelvis
 
 # Your name to show in the footer
-author: Some Person
+author: Matias Agelvis
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  # About Me: "aboutme"
+  # Blog: "blog"
+  CV: "cv"
+  # Resources:
+    # - Beautiful Jekyll: "https://beautifuljekyll.com"
+    # - Learn markdown: "https://www.markdowntutorial.com/"
+  # Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+# avatar: "/assets/img/logo.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -39,30 +41,30 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
-#  medium: yourname
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
+
+  # email: "someone@example.com"
+  # facebook: deanattali
+  github: matiasAgelvis
+  # twitter: daattali
+  # patreon: DeanAttali
+  # youtube: c/daattali
+  # medium: yourname
+  # reddit: yourname
+  linkedin: matias-agelvis
+  # xing: yourname
+  stackoverflow: "7666811/matias-agelvis"
+  # snapchat: deanat78
+  # instagram: deanat78
+  # spotify: yourname
+  # telephone: +14159998888
+  # steam: deanat78
+  # twitch: yourname
+  # yelp: yourname
+  # telegram: yourname
+  # calendly: yourname
+  # mastodon: instance.url/@username
+  # ORCID: your ORCID ID
+  # google-scholar: your google scholar
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
@@ -79,7 +81,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "MatiasAgelvis.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -123,12 +125,14 @@ footer-hover-col: "#0085A1"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
+site-css:
 #  - "/assets/css/custom-styles.css"
+ # - "/assets/css/background.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
-#site-js:
+site-js:
 #  - "/assets/js/custom-script.js"
+ # - "/assets/js/background.js"
 
 # --- Web Analytics Section --- #
 

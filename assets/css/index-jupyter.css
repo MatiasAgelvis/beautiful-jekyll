@@ -1,0 +1,22 @@
+div.jupyter {
+    font-family: monospace;
+}
+
+div.jupyter div.input {
+    display: flex;
+    justify-content: left;
+    gap: 1em;
+    margin-bottom: 1em;
+    align-items: baseline;
+}
+
+div.jupyter div.input div.inner_cell {
+    flex-grow: 2;
+}
+
+div.jupyter div.input pre {
+	white-space: pre-wrap;
+	padding: 0.2em;
+	/*border: unset;*/
+	border: 1px solid rgba(0,0,0,0.1);
+}
